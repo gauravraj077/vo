@@ -1,13 +1,12 @@
 package com.example.vo;
 
+import com.example.vo.Main.Entity;
 import com.example.vo.Main.Id;
 
 @Entity
 @Id
 public class Main {
-	public @interface Id {
-
-	}
+	
 
 	private Long id;
 	private String name;
